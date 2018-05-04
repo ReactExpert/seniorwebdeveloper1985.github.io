@@ -87,6 +87,13 @@ h1, h2, h3, h4, h5, h6 {
 
 #header #logo {
   float: left;
+  background: url(../img/logo.png) top center;
+  width: 80px;
+  height: 80px;
+  /* background: center center; */
+  padding: 0%;
+  margin: 0;
+  background-size: cover;
 }
 
 #header #logo h1 {
@@ -104,10 +111,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-#header #logo img {
+#header #logo a {
   padding: 0;
   margin: 0;
   width: 80px;
+  
 }
 
 @media (max-width: 768px) {
